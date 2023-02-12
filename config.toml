@@ -53,7 +53,7 @@ favicon = "images/logo-sm.svg"
 logo_text = "webzy"
 logo = "images/logo.svg"
 logo_height = "26px"
-logo_rotate = true
+logo_rotate = false
 # Meta data
 description = "webzy AI-generated artwork"
 author = "webzy"
