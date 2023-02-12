@@ -13,12 +13,12 @@
 <link rel="shortcut icon" href="{{ site.Params.favicon | absURL }}" type="image/x-icon">
 <link rel="icon" href="{{ site.Params.favicon | absURL }}" type="image/x-icon">
 
-<!-- multilingual SEO optimizations -->
+<!-- multilingual SEO optimizations 
 {{ if .IsTranslated }}
 {{ range .Page.AllTranslations }}
 <link rel="alternate" title="{{.Title}}" hreflang="{{.Lang}}" href="{{.RelPermalink}}">
 {{ end }}
-{{ end }}
+{{ end }}-->
 
 {{ with .Params.image }}
 <meta property="og:image" content="{{ . | absURL }}" />
