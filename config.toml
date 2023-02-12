@@ -62,7 +62,7 @@ address = "9567 Turner Trace Apt. BC C3G8A4"
 mobile = "+211234565523"
 email = "hello@editor.com"
 # contact form action
-contact_form_action = "https://formsubmit.co/angelina.filip@gmail.com" # contact form works with https://formspree.io
+contact_form_action = "https://formsubmit.co/hello@webzy.com" # contact form works with https://formspree.io
 # Search
 search = true
 # Main section
