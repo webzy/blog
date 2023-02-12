@@ -49,9 +49,9 @@ link = "plugins/search/search.js"
 
 #################### default parameters ################################
 [params]
+#logo = "images/logo.svg"
 favicon = "images/logo-sm.svg"
 logo_text = "webzy"
-logo = "images/logo.svg"
 logo_height = "80px"
 logo_rotate = true
 # Meta data

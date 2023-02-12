@@ -1,3 +1,10 @@
+@font-face {
+	font-family: 'Blacksword';
+	src:  url('../fonts/Blacksword.otf') format('opentype');
+	font-weight: 900;
+	font-style: normal;
+  }
+
 // start header style
 header.sidenav {
   position: fixed;
@@ -91,6 +98,19 @@ header.sidenav {
 
     @include tablet {
       transform: rotate(0);
+    }
+  }
+
+  .text-logo {
+    color: $dark;
+    font-family: Blacksword;
+    letter-spacing: 0.15em;
+    font-size: 70px;
+    margin-top: -125px;
+
+    @include tablet {
+      font-size: 50px;
+      margin-top: -10px;
     }
   }
 }

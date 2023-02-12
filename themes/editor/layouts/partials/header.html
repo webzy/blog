@@ -40,7 +40,7 @@
       <img height="{{site.Params.logo_height}}" src="{{ site.Params.logo | absURL}}"
         alt="{{site.Params.logo_text}}">
       {{ else }}
-      <span class="h3">{{site.Params.logo_text | markdownify}} <span class="text-primary">.</span></span>
+      <span class="text-logo">{{site.Params.logo_text | markdownify}}<span class="text-primary">.</span></span>
       {{ end }}
     </a>
     {{ else }}
@@ -49,7 +49,7 @@
       <img height="{{site.Params.logo_height}}" src="{{ site.Params.logo | absURL}}"
         alt="{{site.Params.logo_text}}">
       {{ else }}
-      <span class="h3">{{site.Params.logo_text | markdownify}} <span class="text-primary">.</span></span>
+      <span class="text-logo plain">{{site.Params.logo_text | markdownify}}<span class="text-primary">.</span></span>
       {{ end }}
     </a>
     {{ end }}
