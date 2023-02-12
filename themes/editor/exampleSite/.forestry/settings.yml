@@ -19,13 +19,13 @@ sections:
 - type: heading
   label: Blog Post
 - type: directory
-  path: exampleSite/content/english/blogs
-  label: Blogs (en)
+  path: exampleSite/content/english/blog
+  label: Blog (en)
   create: all
   match: "**/*"
 - type: directory
-  path: exampleSite/content/french/blogs
-  label: Blogs (fr)
+  path: exampleSite/content/french/blog
+  label: Blog (fr)
   create: all
   match: "**/*"
 - type: heading

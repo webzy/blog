@@ -1,7 +1,7 @@
 ######################## default configuration ####################
 baseURL = 'https://webzy.github.io/'
 languageCode = 'en-us'
-title = 'webzy Blog'
+title = 'webzy blog'
 theme = "editor"
 # post pagination
 paginate = "12"
@@ -66,7 +66,7 @@ contact_form_action = "#" # contact form works with https://formspree.io
 # Search
 search = true
 # Main section
-mainSections = ["blogs"]
+mainSections = ["blog"]
 # custom script on header
 custom_script= ""
 
@@ -168,8 +168,8 @@ url = "about/"
 weight = 2
 
 [[Languages.en.menu.main]]
-name = "Blogs"
-url = "blogs/"
+name = "Blog"
+url = "blog/"
 weight = 3
 
 [[Languages.en.menu.main]]
@@ -237,8 +237,8 @@ url = "about/"
 weight = 2
 
 [[Languages.fr.menu.main]]
-name = "Les Blogs"
-url = "blogs/"
+name = "Le Blog"
+url = "blog/"
 weight = 3
 
 [[Languages.fr.menu.main]]
