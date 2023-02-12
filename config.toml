@@ -55,14 +55,15 @@ logo = "images/logo.svg"
 logo_height = "50px"
 logo_rotate = false
 # Meta data
-description = "webzy AI-generated artwork"
+description = "webzy blog"
 author = "webzy"
+theme-name = "editor"
 # contact info
-address = "9567 Turner Trace Apt. BC C3G8A4"
-mobile = "+211234565523"
-email = "hello@webzy.com"
+address = ""
+mobile = ""
+email = ""
 # contact form action
-contact_form_action = "https://formsubmit.co/hello@webzy.com" # contact form works with https://formspree.io
+contact_form_action = "https://formsubmit.co/el/takuxo" # contact form works with https://formsubmit.co
 # Search
 search = true
 # Main section
