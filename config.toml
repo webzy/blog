@@ -52,7 +52,7 @@ link = "plugins/search/search.js"
 favicon = "images/logo-sm.svg"
 logo_text = "webzy"
 logo = "images/logo.svg"
-logo_height = "26px"
+logo_height = "50px"
 logo_rotate = false
 # Meta data
 description = "webzy AI-generated artwork"
